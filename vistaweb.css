@@ -1,4 +1,4 @@
-/* --- Estilos Generales MUY BÁSICOS --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,32 +6,32 @@
 }
 
 body {
-    font-family: sans-serif; /* Fuente genérica */
+    font-family: sans-serif; 
     background-color: black;
     color: white;
     
-    /* Centramos el reproductor en la página */
+    
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* --- Contenedor Principal --- */
+
 .basic-player-container {
     width: 800px;
     height: 500px;
-    background-color: #333; /* Gris oscuro */
-    border: 2px solid white; /* Un borde simple para verlo */
+    background-color: #a22929; 
+    border: 2px solid white; 
     
-    /* LA MAGIA DE LAS DOS COLUMNAS ESTÁ AQUÍ */
+    
     display: flex; 
 }
 
-/* --- Panel Izquierdo (Info de la canción) --- */
+
 .left-panel {
-    width: 300px; /* Ancho fijo para la columna izquierda */
-    background-color: #222; /* Un gris un poco más oscuro */
+    width: 300px; 
+    background-color: #222; 
     padding: 20px;
     text-align: center;
 }
@@ -39,8 +39,8 @@ body {
 .album-art {
     width: 200px;
     height: 200px;
-    margin-top: 50px; /* Espacio arriba */
-    margin-bottom: 20px; /* Espacio abajo */
+    margin-top: 50px; 
+    margin-bottom: 20px; 
 }
 
 .song-details h1 {
@@ -49,19 +49,19 @@ body {
 }
 
 .song-details p {
-    color: grey; /* Color simple */
+    color: rgb(175, 58, 58); 
 }
 
-/* --- Panel Derecho (Controles) --- */
+
 .right-panel {
-    flex: 1; /* Hacemos que ocupe todo el espacio que sobra */
+    flex: 1; 
     padding: 20px;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px; /* Separamos los botones de arriba y los de abajo */
+    margin-bottom: 100px; 
 }
 
 .header-btn {
@@ -72,7 +72,7 @@ body {
 }
 
 .player-controls {
-    text-align: center; /* Centramos los botones de control */
+    text-align: center; 
 }
 
 .control-btn {
@@ -83,13 +83,13 @@ body {
     border: none;
     border-radius: 50%;
     font-size: 18px;
-    margin: 10px; /* Espacio entre los botones */
+    margin: 10px; 
 }
 
 .play-btn {
     width: 70px;
     height: 70px;
-    background-color: white; /* Color simple y contrastante */
-    color: black;
+    background-color: white; 
+    color: rgb(198, 34, 34);
     font-size: 24px;
 }
