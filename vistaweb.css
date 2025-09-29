@@ -1,0 +1,95 @@
+/* --- Estilos Generales MUY BÁSICOS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; /* Fuente genérica */
+    background-color: black;
+    color: white;
+    
+    /* Centramos el reproductor en la página */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Contenedor Principal --- */
+.basic-player-container {
+    width: 800px;
+    height: 500px;
+    background-color: #333; /* Gris oscuro */
+    border: 2px solid white; /* Un borde simple para verlo */
+    
+    /* LA MAGIA DE LAS DOS COLUMNAS ESTÁ AQUÍ */
+    display: flex; 
+}
+
+/* --- Panel Izquierdo (Info de la canción) --- */
+.left-panel {
+    width: 300px; /* Ancho fijo para la columna izquierda */
+    background-color: #222; /* Un gris un poco más oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+.album-art {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px; /* Espacio arriba */
+    margin-bottom: 20px; /* Espacio abajo */
+}
+
+.song-details h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.song-details p {
+    color: grey; /* Color simple */
+}
+
+/* --- Panel Derecho (Controles) --- */
+.right-panel {
+    flex: 1; /* Hacemos que ocupe todo el espacio que sobra */
+    padding: 20px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px; /* Separamos los botones de arriba y los de abajo */
+}
+
+.header-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.player-controls {
+    text-align: center; /* Centramos los botones de control */
+}
+
+.control-btn {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 10px; /* Espacio entre los botones */
+}
+
+.play-btn {
+    width: 70px;
+    height: 70px;
+    background-color: white; /* Color simple y contrastante */
+    color: black;
+    font-size: 24px;
+}
