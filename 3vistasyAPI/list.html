@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Vista de Lista</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Disfrute el catálogo que tenemos para ti</h1>
+            <p class="subtitle">Nuestra lista completa de juegos de carreras disponibles</p>
+        </header>
+        
+        <div class="separator"></div>
+        
+       
+        <div class="controls-section">
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Buscar juegos..." class="search-input">
+                
+                <select id="categoryFilter" class="filter-select">
+                    <option value="all">Todas las categorías</option>
+                </select>
+                
+                <select id="platformFilter" class="filter-select">
+                    <option value="all">Todas las plataformas</option>
+                </select>
+                
+                <select id="priceFilter" class="filter-select">
+                    <option value="all">Todos los precios</option>
+                    <option value="under25">Menos de $25</option>
+                    <option value="25to50">$25 - $50</option>
+                    <option value="over50">Más de $50</option>
+                </select>
+                
+                <label class="checkbox-label">
+                    <input type="checkbox" id="stockFilter"> Solo en stock
+                </label>
+                
+                <select id="sortSelect" class="filter-select">
+                    <option value="name-asc">Nombre A-Z</option>
+                    <option value="name-desc">Nombre Z-A</option>
+                    <option value="price-asc">Precio: Menor a Mayor</option>
+                    <option value="price-desc">Precio: Mayor a Menor</option>
+                    <option value="rating">Mejor Valorados</option>
+                    <option value="newest">Más Recientes</option>
+                </select>
+            </div>
+            
+            <div class="cart-section">
+                <button class="cart-btn" onclick="viewCart()">
+                    🛒 Carrito <span id="cartBadge" class="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+
+       
+        <div class="games-list-container">
+            <ul class="games-list" id="gamesList">
+                
+            </ul>
+        </div>
+        
+        
+        <div class="nav-buttons">
+            <button class="nav-btn" onclick="window.location.href='cards.html'">Ver como Tarjetas</button>
+            <button class="nav-btn" onclick="window.location.href='carousel.html'">Ver Carrusel</button>
+        </div>
+        
+        <footer>
+            <p>TM & © 2024 EEC Corporation.</p>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="list.js"></script>
+</body>
+</html>

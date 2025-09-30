@@ -1,0 +1,74 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Need For Speed Hot Pursuit",
+      "description": "Un emocionante juego de carreras y persecuciones a alta velocidad. Enfréntate a la policía o únete a ellos en intensas persecuciones.",
+      "price": 49.99,
+      "category": "carreras",
+      "platform": ["PC", "PS4", "XBOX"],
+      "rating": 4.5,
+      "releaseYear": 2020,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "icon": "🏎️",
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 2,
+      "title": "Need For Speed Payback",
+      "description": "Enfréntate a la casa en esta aventura de acción llena de giros inesperados. Personaliza tus vehículos y desata la venganza.",
+      "price": 39.99,
+      "category": "carreras",
+      "platform": ["PC", "PS4", "XBOX", "Switch"],
+      "rating": 4.2,
+      "releaseYear": 2017,
+      "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a",
+      "icon": "🔥",
+      "inStock": true,
+      "discount": 10
+    },
+    {
+      "id": 3,
+      "title": "Need For Speed Most Wanted",
+      "description": "Conviértete en el conductor más buscado de la ciudad. Escapa de la policía y domina las calles en este juego de mundo abierto.",
+      "price": 29.99,
+      "category": "carreras",
+      "platform": ["PC", "PS3", "XBOX 360"],
+      "rating": 4.7,
+      "releaseYear": 2012,
+      "image": "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca",
+      "icon": "👑",
+      "inStock": true,
+      "discount": 20
+    },
+    {
+      "id": 4,
+      "title": "Forza Horizon 4",
+      "description": "Explora la hermosa Gran Bretaña en este festival de carreras de mundo abierto. Disfruta de las estaciones cambiantes y cientos de autos.",
+      "price": 59.99,
+      "category": "carreras",
+      "platform": ["PC", "XBOX"],
+      "rating": 4.8,
+      "releaseYear": 2018,
+      "image": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc",
+      "icon": "⚡",
+      "inStock": false,
+      "discount": 15
+    },
+    {
+      "id": 5,
+      "title": "Midnight Club Los Angeles",
+      "description": "Carreras callejeras en la ciudad de Los Ángeles. Personaliza tus autos y compite en las calles de LA en este título clásico.",
+      "price": 19.99,
+      "category": "carreras",
+      "platform": ["PS3", "XBOX 360"],
+      "rating": 4.3,
+      "releaseYear": 2008,
+      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
+      "icon": "🌃",
+      "inStock": true,
+      "discount": 30
+    }
+  ]
+}

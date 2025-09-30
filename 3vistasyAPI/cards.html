@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Vista Visual</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Disfrute el catálogo que tenemos para ti</h1>
+            <p class="subtitle">Descubre nuestros juegos de carreras con estilo</p>
+        </header>
+        
+        <div class="separator"></div>
+
+       
+        <div class="controls-section">
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Buscar juegos..." class="search-input">
+                <select id="sortSelect" class="filter-select">
+                    <option value="name-asc">Ordenar por</option>
+                    <option value="name-asc">Nombre A-Z</option>
+                    <option value="name-desc">Nombre Z-A</option>
+                    <option value="price-asc">Precio: Menor</option>
+                    <option value="price-desc">Precio: Mayor</option>
+                </select>
+            </div>
+            
+            <div class="cart-section">
+                <button class="cart-btn" onclick="viewCart()">
+                    🛒 <span id="cartBadge" class="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="games-grid" id="gamesGrid">
+            
+        </div>
+        
+        
+        <div class="nav-buttons">
+            <button class="nav-btn" onclick="window.location.href='list.html'">Ver Lista Detallada</button>
+            <button class="nav-btn" onclick="window.location.href='carousel.html'">Ver Carrusel</button>
+        </div>
+        
+        <footer>
+            <p>TM & © 2024 EEC Corporation.</p>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="cards.js"></script>
+</body>
+</html>
